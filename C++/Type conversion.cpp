@@ -1,27 +1,19 @@
 #include <iostream>
-#include <vector>
+#include <limits.h>
 using namespace std;
 
 void input() {
 	#ifndef ONLINE_JUDGE 
 	freopen("input.txt", "r", stdin); 
 	freopen("output.txt", "w", stdout); 
-	#endif 
+	#endif
 }
 
 int main()
 {
 	input();
-
-	int n;
-	vector<int>v;
-	cin >> n;
-	for (int i = 0; i < n; ++i)
-	{
-		v.push_back(i);
-	}
-	for(auto x : v ) {
-		cout << x << endl;
-	}
-	return 0;
+	int x;
+	double y = 10.56;
+	x = y;
+	cout << x;
 }
