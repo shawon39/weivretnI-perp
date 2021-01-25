@@ -1,6 +1,4 @@
-// #include <iostream>
-// #include <limits.h>
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 void input() {
@@ -13,8 +11,6 @@ void input() {
 int main()
 {
 	input();
-	int x;
-	double y = 10.56;
-	x = y;
-	cout << x << endl;
+	cout << (3<<1) << endl;
+	cout << (3>>1) << endl;
 }
